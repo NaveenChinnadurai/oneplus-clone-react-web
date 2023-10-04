@@ -1,0 +1,13 @@
+.navbar-div{
+    display: flex;
+    padding: 10px 5%;
+    align-items: center;
+}
+.navbar-list>ul{
+    list-style: none;
+    display: flex;
+    margin: 0 10px;
+}
+.navbar-list>ul>li{
+    margin: 0 10px;
+}

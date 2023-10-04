@@ -1,0 +1,44 @@
+.banner-div{
+    height: 75vh;
+    background-image: url('../../assets/banner.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position-x: -400px;
+    padding: 30px 20px;
+}
+.banner-head>p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.banner-head>h1{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 5px 0;
+}
+.banner-end{
+    padding: 10px 0;
+}
+.banner-btn{
+    background-color: black;
+    color:white;
+    padding: 8px 40px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.banner-chat-icon{
+    background-color: white;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+}
+.banner-chat{
+    height: 30px;
+}
+.banner-icon{
+    font-size: 20px;
+    margin: 0 10px;
+}
