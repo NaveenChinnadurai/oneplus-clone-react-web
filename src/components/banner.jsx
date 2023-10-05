@@ -9,7 +9,7 @@ function Banner() {
                 <h1>#OneCelebration</h1>
             </div>
             <div className="banner-end">
-                <span className="banner-btn">Notify Me</span>
+                <span className="btn solid">Notify Me</span>
             </div>
             <div className="banner-chat-icon">
                 <img src={chat} alt="chatbot" className='banner-chat' />

@@ -20,13 +20,7 @@
 .banner-end{
     padding: 10px 0;
 }
-.banner-btn{
-    background-color: black;
-    color:white;
-    padding: 8px 40px;
-    border-radius: 3px;
-    font-size: 15px;
-}
+
 .banner-chat-icon{
     background-color: white;
     width: fit-content;
@@ -37,8 +31,4 @@
 }
 .banner-chat{
     height: 30px;
-}
-.banner-icon{
-    font-size: 20px;
-    margin: 0 10px;
 }
