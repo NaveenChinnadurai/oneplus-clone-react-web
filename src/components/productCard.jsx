@@ -7,6 +7,7 @@ function ProductCard(props) {
       <div className="product-div-1">
         <div className="productcard-head">
           <h1>{props.card.title}</h1>
+          <h1>{props.card.title1}</h1>
         </div>
         <div className="productcard-end">
           <p>{props.card.para}</p>
@@ -18,7 +19,7 @@ function ProductCard(props) {
         </div>
       </div>
       <div className="product-div-2">
-      <img src={props.card.img} alt="product-img"  className='product-img'/>
+        <img src={props.card.img} alt="product-img" className='product-img' />
       </div>
     </div>
   )

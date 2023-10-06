@@ -1,0 +1,31 @@
+.gadget-div{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 420px;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 10px ;
+}
+.gadget-img{
+    height: 300px;
+}
+.gadget-card-btn{
+    padding: 10px 0;
+    margin: 0;
+}
+.gadget-card-btn>span{
+    margin: 0 10px;
+}
+.gadget-card-head>h2{
+    width: 100%;
+}
+.gadget-card-btn:hover{
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    transition: 1s ease;
+}

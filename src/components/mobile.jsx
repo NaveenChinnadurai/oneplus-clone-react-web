@@ -11,7 +11,11 @@ function Mobile() {
                 </div>
                 <div className="mobile-subdiv-2">
                     <p>Coming October 7 | 12:00 AM. Hit 'Notify Me' to get a chance to win 999 RedCoins.</p>
-                    <span className='banner-btn mobile-btn'>Notify Me</span>
+                    <div className='mobile-btn-div'>
+                        <span className='btn solid mobile-btn'>Notify Me</span>
+                        <span className='btn outline mobile-btn'>Learn More</span>
+                    </div>
+
                 </div>
             </div>
             <div className="mobile-img">
